@@ -16,8 +16,11 @@ export default {
             },
             colors: {
                 main_bg: '#ECEBF3',
-                maroon: {
-                    500: '#ECEBF3'
+                pink: {
+                    500: '#E6497F'
+                },
+                green: {
+                    300: '#AFD500'
                 }
             },
             screens: {
