@@ -1,4 +1,4 @@
-<div class="w-full bg-pink-500">
+<div class="w-full bg-pink-500 absolute z-10">
     <div class="content flex justify-between items-center py-5">
         <div class="flex gap-28">
             <svg width="120" height="29" viewBox="0 0 120 29" fill="none" xmlns="http://www.w3.org/2000/svg">

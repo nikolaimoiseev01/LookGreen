@@ -7,34 +7,30 @@
     box-sizing: border-box;
 }
 
+
 @layer utilities {
+
     .grad-1 {
-        background: linear-gradient(180deg, #FF6198, #FF6F71);
+        background: linear-gradient(180deg, #FF6198 0%, #FF6C77 100%);
     }
 
     .grad-2 {
-        background: linear-gradient(180deg, #FF6F71, #FF7D49);
+        background: linear-gradient(180deg, #FF6C77 0%, #FF7955 100%);
     }
 
     .grad-3 {
-        background: linear-gradient(180deg, #FF7D49, #FF8426);
+        background: linear-gradient(180deg, #FF7955 0%, #FF873B 100%);
     }
 
     .grad-4 {
+        background: linear-gradient(180deg, #FF873B 0%, #FF8426 100%);
+    }
+
+    .grad-contact-form {
         background: linear-gradient(
             180deg,
             #FF6198 0%,
-            #FF6F71 33%,
-            #FF7D49 66%,
             #FF8426 100%
-        );
-    }
-
-    .bg-radial-green {
-        background: radial-gradient(
-            52.14% 52.14% at 50% 50%,
-            #FBFFEB 0%,
-            #ABCA1D 100%
         );
     }
 }
@@ -44,9 +40,13 @@ body {
 }
 
 h2 {
-    @apply font-[Forum] font-normal text-5xl;
+    @apply font-normal text-5xl;
 }
 
 .content {
     @apply w-[90%] max-w-[1500px] mx-auto;
+}
+
+input {
+    @apply bg-white !text-3xl !rounded-xl !px-8 !py-4 outline-none focus:outline-none border-none !text-black-500 placeholder:text-black-300;
 }

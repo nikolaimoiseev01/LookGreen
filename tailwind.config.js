@@ -12,15 +12,24 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Lato', ...defaultTheme.fontFamily.sans],
+                sans: ['Manrope', ...defaultTheme.fontFamily.sans],
             },
             colors: {
                 main_bg: '#ECEBF3',
                 pink: {
+                    300: '#FF8BBB',
                     500: '#E6497F'
                 },
                 green: {
-                    300: '#AFD500'
+                    300: '#AFD500',
+                    500: '#7B9600',
+                },
+                blue: {
+                    300: '#65C2FF'
+                },
+                black: {
+                    300: '#A1A1A1',
+                    500: '#141414'
                 }
             },
             screens: {
