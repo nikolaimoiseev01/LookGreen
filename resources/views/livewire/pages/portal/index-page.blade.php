@@ -4,25 +4,31 @@
         <div class="content w-full flex gap-20 items-start relative">
             <div class="flex flex-col w-2/3">
                 <img class="" src="fixed/logos/look-green.svg" alt="">
-                <span
-                    class="uppercase bg-green-300 px-4 py-3 text-3xl rounded-2xl w-fit ml-auto mr-32">Стать партнером</span>
+                <a
+                    href=""
+                    class="uppercase bg-green-300 px-4 py-3 text-3xl rounded-2xl w-fit ml-auto mr-32 transition hover:bg-pink-300">
+                    Стать партнером
+                </a>
             </div>
             {{--                <img src="/fixed/light-effect.png" class="absolute top-0 left-0 w-full" alt="">--}}
             <img src="/fixed/jars/jar-green.png" class="absolute right-0 -top-32 z-20" alt="">
             <img src="/fixed/jars/jar-flying.png" class="absolute right-16 bottom-0" alt="">
         </div>
-        <div class="content w-full flex items-start relative justify-center mt-24 mb-4">
+        <div class="content w-full flex items-start relative justify-center mt-24 mb-4 group">
             <div
-                class="absolute h-2 bg-green-300 w-full rounded-2xl top-1/2 -translate-y-1/2"></div>
-            <a href="" class="px-4 py-2 uppercase bg-green-300 rounded-3xl text-lg relative">Узнать
-                больше</a>
+                class="absolute h-2 bg-green-300 w-full rounded-2xl top-1/2 -translate-y-1/2 transition group-hover:bg-pink-300"></div>
+            <a href="" class="px-4 py-2 uppercase bg-green-300 rounded-3xl text-lg relative transition group-hover:bg-pink-300">
+                Узнать больше</a>
         </div>
     </section>
     <section class="grad-2 py-20">
         <div class="flex content gap-8">
             <img src="/fixed/block-2-img.png" class="rounded-3xl w-1/3 aspect-video object-cover" alt="">
-            <div class="flex flex-col gap-8 w-2/3">
+            <div class="flex flex-col gap-8 w-2/3 relative">
                 <img src="/fixed/block-2-text.svg" class="w-full" alt="">
+                <svg class="absolute top-0 right-0" width="424" height="45" viewBox="0 0 424 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.75751 17.0149C20.7744 10.1686 63.2088 6.26266 82.924 5.1655C131.742 0.0844639 314.811 -0.430063 342.506 0.228238C370.201 0.886539 433.571 2.53229 422.775 21.2939C411.979 40.0555 313.403 46.6385 255.666 44.6636C197.929 42.6887 143.008 39.068 114.844 40.7138C86.6791 42.3595 36.4526 38.4097 17.6763 35.7765C-1.10005 33.1433 -6.26354 25.5728 8.75751 17.0149Z" fill="#F2546C"/>
+                </svg>
                 <div class="grid grid-cols-2 grid-rows-2 gap-4">
                     <div class="flex flex-col col-span-1 row-span-2 bg-green-300 rounded-xl p-6 relative overflow-hidden">
                         <x-heroicon-o-arrow-up-right class="bg-white ml-auto p-3 rounded-full text-black w-12 h-12" />
@@ -41,7 +47,7 @@
             </div>
         </div>
     </section>
-    <section class="py-20 grad-3">
+    <section class="pt-20 grad-3">
         <div class="content flex flex-col">
             <h2 class="uppercase text-4xl border-b-2 pb-2 border-white">О нас</h2>
             <div class="flex">
@@ -57,6 +63,9 @@
                         Мы не скрываем пользу<br>
                         — мы её показываем
                     </p>
+                    <svg width="424" height="45" viewBox="0 0 424 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.75751 17.0149C20.7744 10.1686 63.2088 6.26266 82.924 5.1655C131.742 0.0844639 314.811 -0.430063 342.506 0.228238C370.201 0.886539 433.571 2.53229 422.775 21.2939C411.979 40.0555 313.403 46.6385 255.666 44.6636C197.929 42.6887 143.008 39.068 114.844 40.7138C86.6791 42.3595 36.4526 38.4097 17.6763 35.7765C-1.10005 33.1433 -6.26354 25.5728 8.75751 17.0149Z" fill="#F87140"/>
+                    </svg>
                 </div>
             </div>
         </div>
@@ -73,7 +82,7 @@
                         <span class="border-2 border-white rounded-full px-4">с удовольствием</span></p>
                     <div class="flex mt-32">
                         <img src="/fixed/block-4-the-nut.png" class="" alt="">
-                        <div class="flex flex-col text-4xl gap-4 justify-center text-center  uppercase font-bold mt-20">
+                        <div class="flex flex-col text-4xl gap-4 justify-center text-center  uppercase font-bold mt-32 text-nowrap">
                             <p>Собственное производство</p>
                             <div class="h-1 bg-green-300 w-full"></div>
                             <p>Контроль качества</p>
@@ -104,8 +113,8 @@
 
             <div class="flex gap-20">
                 <div class="flex flex-col justify-between">
-                    <h3 class="text-5xl font-medium">Оставьте свои контакты<br>
-                        , если хотите обсудить<br>
+                    <h3 class="text-5xl font-medium">Оставьте свои контакты,<br>
+                        если хотите обсудить<br>
                         сотрудничество с нами<br>
                         <span class="font-bold">и получить презентацию</span></h3>
                     <p class="text-2xl bg-green-500 px-2 text-center py-1 rounded-2xl uppercase">
@@ -123,5 +132,4 @@
             <div class="h-1 w-full bg-white my-20"></div>
         </div>
     </section>
-    <section class="py-20"></section>
 </main>

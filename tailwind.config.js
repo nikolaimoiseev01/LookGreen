@@ -30,6 +30,9 @@ export default {
                 black: {
                     300: '#A1A1A1',
                     500: '#141414'
+                },
+                orange: {
+                    500: '#FF8427'
                 }
             },
             screens: {

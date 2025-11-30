@@ -1,4 +1,4 @@
-<div class="w-full bg-pink-500 absolute z-10">
+<header class="w-full bg-pink-500 absolute z-10">
     <div class="content flex justify-between items-center py-5">
         <div class="flex gap-28">
             <svg width="120" height="29" viewBox="0 0 120 29" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -7,9 +7,9 @@
                 <path d="M111.795 0C111.795 9.41672 104.618 17.0455 95.7839 17.0455C86.9501 17.0455 79.7727 9.41672 79.7727 0H111.818H111.795Z" fill="#2F2F2F"/>
             </svg>
             <div class="flex text-2xl gap-8">
-                <a href="">О нас</a>
-                <a href="">Покупателям</a>
-                <a href="">Контакты</a>
+                <a href="" class="transition hover:text-green-300">О нас</a>
+                <a href="" class="transition hover:text-green-300">Покупателям</a>
+                <a href="#footer" class="transition hover:text-green-300">Контакты</a>
             </div>
         </div>
         <div class="flex gap-5">
@@ -17,4 +17,4 @@
             <img src="/fixed/logos/wb.svg" alt="">
         </div>
     </div>
-</div>
+</header>
