@@ -11,7 +11,6 @@
                         Стать партнером
                     </a>
                 </div>
-                                <img src="/fixed/light-effect.png" class="absolute top-0 left-0 w-full" alt="">
                 <img src="/fixed/jars/jar-green.png" class="absolute right-0 -top-32 z-30" alt="">
                 <img src="/fixed/jars/jar-flying.png" id="jar-flying-1" class="absolute right-16 bottom-0 z-20" alt="">
             </div>
