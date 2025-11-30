@@ -7,8 +7,24 @@
     box-sizing: border-box;
 }
 
-html {
-    @apply scroll-smooth;
+
+
+@layer base {
+    *,
+    ::after,
+    ::before,
+    ::backdrop,
+    ::file-selector-button {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    html {
+        @apply text-[16px] xl:text-[15px] md:!text-[14px] scroll-smooth
+        [scrollbar-width:none] [&::-webkit-scrollbar]:hidden;
+    }
 }
 
 
