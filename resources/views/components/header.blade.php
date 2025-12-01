@@ -12,7 +12,7 @@
             <!-- Десктоп-меню -->
             <div class="lg:hidden flex text-2xl gap-8 ml-16">
                 <a href="#about" class="transition hover:text-green-300">О нас</a>
-                <a href="products" class="transition hover:text-green-300">Покупателям</a>
+                <a href="#products" class="transition hover:text-green-300">Покупателям</a>
                 <a href="#footer" class="transition hover:text-green-300">Контакты</a>
             </div>
         </div>
@@ -37,7 +37,7 @@
         <nav class="absolute top-full left-0 w-full bg-pink-500 flex-col items-start gap-4 px-6 py-5 text-xl
                     hidden peer-checked:flex lg:hidden shadow-md">
             <a href="#about" class="transition hover:text-green-300">О нас</a>
-            <a href="products" class="transition hover:text-green-300">Покупателям</a>
+            <a href="#products" class="transition hover:text-green-300">Покупателям</a>
             <a href="#footer" class="transition hover:text-green-300">Контакты</a>
         </nav>
 
