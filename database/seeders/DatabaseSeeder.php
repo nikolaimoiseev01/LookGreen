@@ -20,9 +20,9 @@ class DatabaseSeeder extends Seeder
 
         \App\Models\User::firstOrCreate([
             'name' => 'Admin Name',
-            'email' => config('app.admin_email'),
+            'email' => config('app.admin.email'),
             'email_verified_at' => now(),
-            'password' => Hash::make(config('app.admin_password'))
+            'password' => Hash::make(config('app.admin.password'))
         ]);
 
         $products = [
