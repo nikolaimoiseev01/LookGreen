@@ -5,7 +5,7 @@
                  style="background: linear-gradient(0deg,{{$product['gradient_from']}}, {{$product['gradient_to']}});"
             >
                 <div
-                    class="flex flex-col h-full text-center py-8 relative max-w-[1440px] w-full mx-auto">
+                    class="flex flex-col h-full text-center py-8 relative max-w-[1440px] w-full mx-auto content">
 
                     <h2 class="font-bold text-6xl mb-8 uppercase">
                         {{ $product['name'] }}
@@ -33,7 +33,7 @@
 
                     <img
                         src="{{ $product->getFirstMediaUrl('emoji') }}"
-                        class="absolute bottom-16 right-16"
+                        class="absolute bottom-16 right-16 md:hidden"
                         alt=""
                     >
                 </div>
@@ -65,6 +65,7 @@
         var swiper = new Swiper(".productsSlider", {
             slidesPerView: 'auto',
             spaceBetween: 30,
+            autoHeight: true,
             // navigation: {
             //     nextEl: "#ownBooksSliderNext",
             //     prevEl: "#ownBooksSliderPrev",

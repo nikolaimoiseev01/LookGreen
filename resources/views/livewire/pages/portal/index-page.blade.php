@@ -296,7 +296,7 @@
                     </div>
                     <div class="flex gap-2">
                         <img src="/fixed/block-4-the-nut.png"
-                             class="hidden lg:block h-fit mt-auto w-1/2 object-cover" alt="">
+                             class="hidden lg:block h-auto mt-auto w-1/2 object-cover" alt="">
                         <img src="/fixed/block-4-jars.png" id="jar-flying-finish"
                              class="lg:order-1 md:w-1/2" alt="">
                     </div>
