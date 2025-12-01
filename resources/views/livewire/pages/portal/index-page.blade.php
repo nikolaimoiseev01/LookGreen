@@ -272,7 +272,7 @@
                          class="absolute md:hidden w-[450px] top-1/2 left-2/3 -translate-y-1/2 -translate-x-1/2"
                          alt="">
                     <div class="flex flex-col md:w-full">
-                        <p class="uppercase text-6xl md:text-5xl md:leading-normal mt-20 leading-snug">
+                        <p class="uppercase text-6xl md:text-5xl sm:!text-4xl md:leading-normal sm:!leading-relaxed sm:text-center mt-20 leading-snug">
                             <span class="border-2 border-white rounded-full px-4">вдохновляем</span>
                             на выбор<br>
                             в пользу <span

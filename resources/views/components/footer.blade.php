@@ -1,8 +1,8 @@
 <footer class="pt-12 pb-4 md:pt-0 bg-orange-500" id="footer">
     <div class="content flex md:flex-col">
-        <div class="flex items-center justify-between">
+        <div class="flex items-center justify-center md:flex-col md:gap-4 md:mb-4">
             <img src="/fixed/footer-icon.png" alt="">
-            <div class="gap-2 hidden md:flex">
+            <div class="gap-2 hidden md:flex md:flex-wrap">
                 <img class="w-20 h-20 " src="/fixed/logos/ozon.svg" alt="">
                 <img class="w-20 h-20" src="/fixed/logos/wb.svg" alt="">
             </div>
