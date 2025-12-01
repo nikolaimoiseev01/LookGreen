@@ -11,6 +11,15 @@ export default {
 
     theme: {
         extend: {
+            keyframes: {
+                spinSlow: {
+                    '0%': { transform: 'rotate(0deg)' },
+                    '100%': { transform: 'rotate(360deg)' },
+                },
+            },
+            animation: {
+                spinSlow: 'spinSlow 24s linear infinite',
+            },
             fontFamily: {
                 sans: ['Manrope', ...defaultTheme.fontFamily.sans],
             },

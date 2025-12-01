@@ -10,7 +10,7 @@
             </svg>
 
             <!-- Десктоп-меню -->
-            <div class="lg:hidden flex text-2xl gap-8">
+            <div class="lg:hidden flex text-2xl gap-8 ml-16">
                 <a href="" class="transition hover:text-green-300">О нас</a>
                 <a href="" class="transition hover:text-green-300">Покупателям</a>
                 <a href="#footer" class="transition hover:text-green-300">Контакты</a>

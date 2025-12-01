@@ -3,6 +3,8 @@
 namespace App\Livewire\Components;
 
 use App\Models\Contact;
+use App\Notifications\TelegramNotification;
+use Illuminate\Support\Facades\Notification;
 use Livewire\Component;
 
 class ContactForm extends Component
@@ -26,6 +28,13 @@ class ContactForm extends Component
             'phone' => $this->phone,
             'company' => $this->company,
         ]);
+        $text =
+            "*Имя:* " . $this->name . "\n" .
+            "*Email:* " . $this->email . "\n" .
+            "*Телефон:* " . $this->phone . "\n" .
+            "*Компания:* " . $this->company;
+        Notification::route('telegram', '-4889722915')
+            ->notify(new TelegramNotification($text));
         $this->isSent = true;
     }
 }

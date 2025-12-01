@@ -1,4 +1,4 @@
-<form wire:submit.prevent="submit" class="flex flex-col">
+<form wire:submit.prevent="submit" class="flex flex-col w-full">
     <div class="flex flex-col gap-4 mb-20">
         <input required type="text" wire:model="name" placeholder="ИМЯ*">
         <input required type="text" wire:model="phone" placeholder="ТЕЛЕФОН*">
