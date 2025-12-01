@@ -196,7 +196,7 @@
                             видимой.Это не просто еда, а чистая энергия,
                             которая помогает тебе быть в лучшей форме каждый день
                         </p>
-                        <img src="/fixed/block-3-emoji.svg" class="animate-spinSlow max-w-80 relative z-[99]" alt="">
+                        <img src="/fixed/block-3-emoji.png" class="animate-spinSlow max-w-80 relative z-[99]" alt="">
                         <p class="text-center text-3xl uppercase font-bold relative  z-[99]">
                             Мы не скрываем пользу<br>
                             — мы её показываем
