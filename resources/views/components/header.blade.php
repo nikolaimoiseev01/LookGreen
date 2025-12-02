@@ -18,7 +18,7 @@
         </div>
 
         <img src="/fixed/jars/jar-green.png"
-             class="absolute right-20 top-0 z-30 w-[347px] xl:w-[255px] lg:hidden" alt="">
+             class="absolute left-[70%] top-0 z-30 w-[347px] xl:w-[255px] lg:hidden" alt="">
 
         <!-- Иконки -->
         <div class="flex gap-5 lg:hidden relative z-[99]">
