@@ -187,27 +187,27 @@
         <section id="about" class="pt-20 grad-3 relative">
             <div class="content flex flex-col">
                 <h2 class="uppercase text-4xl border-b-2 pb-2 border-white">О нас</h2>
-                <div class="flex relative">
-                    <img src="/fixed/block-3-img.png" class="max-w-4xl w-2/3 md:w-1/2 md:h-auto object-cover mx-auto md:object-contain"
+                <div class="flex relative lg:flex-col">
+                    <img src="/fixed/block-3-img.png" class="max-w-4xl w-2/3 object-cover mx-auto"
                          alt="">
                     <div
-                        class="relative my-auto flex gap-9 flex-col items-center justify-center text-center md:w-1/2 md:gap-0 md:pt-8">
+                        class="relative my-auto flex gap-9 flex-col items-center justify-center text-center">
                         <div class="grad-3 absolute top-0 left-0 w-full h-full z-[99]"></div>
-                        <p class="text-center font-medium text-3xl z-[99] md:text-sm">
+                        <p class="text-center font-medium text-3xl z-[99]">
                             <span class="font-bold">Look Green</span> — это бренд, который делает
                             пользу
                             видимой.Это не просто еда, а чистая энергия,
                             которая помогает тебе быть в лучшей форме каждый день
                         </p>
-                        <img src="/fixed/block-3-emoji.png" class="animate-spinSlow max-w-80 md:max-w-32 relative z-[99]" alt="">
-                        <p class="text-center text-3xl uppercase font-bold relative z-[99] md:text-base">
+                        <img src="/fixed/block-3-emoji.png" class="animate-spinSlow max-w-80 relative z-[99]" alt="">
+                        <p class="text-center text-3xl uppercase font-bold relative  z-[99]">
                             Мы не скрываем пользу<br>
                             — мы её показываем
                         </p>
 
                         <div class="relative">
                             <div class="flex flex-col w-[300px] h-[40px]">
-                                <svg class="z-[99] absolute left-1/2 top-[25px] -translate-x-1/2 md:w-[250px]"
+                                <svg class="z-[99] absolute left-1/2 top-[25px] -translate-x-1/2"
                                      width="428" height="45" viewBox="0 0 428 45" fill="none"
                                      xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#clip0_115_40)">
@@ -231,7 +231,7 @@
                                     </defs>
                                 </svg>
 
-                                <svg class="z-[97] absolute left-1/2 top-[25px] -translate-x-1/2 md:w-[250px]"
+                                <svg class="z-[97] absolute left-1/2 top-[25px] -translate-x-1/2"
                                      width="428" height="45" viewBox="0 0 428 45" fill="none"
                                      xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#clip0_115_47)">
@@ -258,7 +258,7 @@
                             </div>
                             <img id="jar-flying-2"
                                  src="/fixed/jars/jar-flying.png"
-                                 class="min-w-[400px] absolute left-1/2 -top-[100px] -translate-x-1/2 z-[98] md:min-w-[100px] md:hidden"
+                                 class="min-w-[400px] absolute left-1/2 -top-[100px] -translate-x-1/2 z-[98] md:min-w-[250px]"
                                  style="transform: translate(-50%, -50%) !important;"
                             >
                         </div>
@@ -297,7 +297,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flex gap-2">
+                    <div class="flex gap-2 md:pt-44">
                         <img src="/fixed/block-4-the-nut.png"
                              class="hidden h-auto mt-auto w-1/2 object-cover" alt="">
                         <img src="/fixed/block-4-jars.png" id="jar-flying-finish"
@@ -306,6 +306,89 @@
                 </div>
             </div>
         </section>
+
+{{--        <section id="about" class="pt-20 grad-3 relative">--}}
+{{--            <div class="content flex flex-col">--}}
+{{--                <h2 class="uppercase text-4xl border-b-2 pb-2 border-white">О нас</h2>--}}
+{{--                <div class="flex relative">--}}
+{{--                    <img src="/fixed/block-3-img.png" class="max-w-4xl w-2/3 md:w-1/2 md:h-auto object-cover mx-auto md:object-contain"--}}
+{{--                         alt="">--}}
+{{--                    <div--}}
+{{--                        class="relative my-auto flex gap-9 flex-col items-center justify-center text-center md:w-1/2 md:gap-0 md:pt-8">--}}
+{{--                        <div class="grad-3 absolute top-0 left-0 w-full h-full z-[99]"></div>--}}
+{{--                        <p class="text-center font-medium text-3xl z-[99] md:text-sm">--}}
+{{--                            <span class="font-bold">Look Green</span> — это бренд, который делает--}}
+{{--                            пользу--}}
+{{--                            видимой.Это не просто еда, а чистая энергия,--}}
+{{--                            которая помогает тебе быть в лучшей форме каждый день--}}
+{{--                        </p>--}}
+{{--                        <img src="/fixed/block-3-emoji.png" class="animate-spinSlow max-w-80 md:max-w-32 relative z-[99]" alt="">--}}
+{{--                        <p class="text-center text-3xl uppercase font-bold relative z-[99] md:text-base">--}}
+{{--                            Мы не скрываем пользу<br>--}}
+{{--                            — мы её показываем--}}
+{{--                        </p>--}}
+
+{{--                        <div class="relative">--}}
+{{--                            <div class="flex flex-col w-[300px] h-[40px]">--}}
+{{--                                <svg class="z-[99] absolute left-1/2 top-[25px] -translate-x-1/2 md:w-[250px]"--}}
+{{--                                     width="428" height="45" viewBox="0 0 428 45" fill="none"--}}
+{{--                                     xmlns="http://www.w3.org/2000/svg">--}}
+{{--                                    <g clip-path="url(#clip0_115_40)">--}}
+{{--                                        <mask id="mask0_115_40" style="mask-type:luminance"--}}
+{{--                                              maskUnits="userSpaceOnUse" x="0" y="0" width="428"--}}
+{{--                                              height="26">--}}
+{{--                                            <path d="M427.13 0H0V25.45H427.13V0Z"--}}
+{{--                                                  class="fill-white transition hover:fill-green-300 hover:scale-[1.01]"/>--}}
+{{--                                        </mask>--}}
+{{--                                        <g mask="url(#mask0_115_40)">--}}
+{{--                                            <path--}}
+{{--                                                d="M11.8901 17.01C23.9101 10.16 66.3401 6.26003 86.0601 5.16003C134.87 0.0800261 317.94 -0.429974 345.63 0.230026C373.32 0.890026 436.7 2.53003 425.9 21.3C415.1 40.06 316.53 46.64 258.79 44.67C201.05 42.7 146.13 39.07 117.97 40.72C89.8101 42.37 39.5801 38.42 20.8001 35.78C2.03014 33.14 -3.12986 25.57 11.8901 17.01Z"--}}
+{{--                                                fill="#EE7145"/>--}}
+{{--                                        </g>--}}
+{{--                                    </g>--}}
+{{--                                    <defs>--}}
+{{--                                        <clipPath id="clip0_115_40">--}}
+{{--                                            <rect width="427.13" height="45"--}}
+{{--                                                  class="fill-white transition hover:fill-green-300 hover:scale-[1.01]"/>--}}
+{{--                                        </clipPath>--}}
+{{--                                    </defs>--}}
+{{--                                </svg>--}}
+
+{{--                                <svg class="z-[97] absolute left-1/2 top-[25px] -translate-x-1/2 md:w-[250px]"--}}
+{{--                                     width="428" height="45" viewBox="0 0 428 45" fill="none"--}}
+{{--                                     xmlns="http://www.w3.org/2000/svg">--}}
+{{--                                    <g clip-path="url(#clip0_115_47)">--}}
+{{--                                        <mask id="mask0_115_47" style="mask-type:luminance"--}}
+{{--                                              maskUnits="userSpaceOnUse" x="3" y="0" width="425"--}}
+{{--                                              height="46">--}}
+{{--                                            <path--}}
+{{--                                                d="M11.8901 17.01C23.9101 10.16 66.3401 6.26003 86.0601 5.16003C134.87 0.0800261 317.94 -0.429974 345.63 0.230026C373.32 0.890026 436.7 2.53003 425.9 21.3C415.1 40.06 316.53 46.64 258.79 44.67C201.05 42.7 146.13 39.07 117.97 40.72C89.8101 42.37 39.5801 38.42 20.8001 35.78C2.03014 33.14 -3.12986 25.57 11.8901 17.01Z"--}}
+{{--                                                class="fill-white transition hover:fill-green-300 hover:scale-[1.01]"/>--}}
+{{--                                        </mask>--}}
+{{--                                        <g mask="url(#mask0_115_47)">--}}
+{{--                                            <path d="M423.78 25.4501H0V45.0001H423.78V25.4501Z"--}}
+{{--                                                  fill="#EE7144"/>--}}
+{{--                                        </g>--}}
+{{--                                    </g>--}}
+{{--                                    <defs>--}}
+{{--                                        <clipPath id="clip0_115_47">--}}
+{{--                                            <rect width="427.13" height="45"--}}
+{{--                                                  class="fill-white transition hover:fill-green-300 hover:scale-[1.01]"/>--}}
+{{--                                        </clipPath>--}}
+{{--                                    </defs>--}}
+{{--                                </svg>--}}
+
+{{--                            </div>--}}
+{{--                            <img id="jar-flying-2"--}}
+{{--                                 src="/fixed/jars/jar-flying.png"--}}
+{{--                                 class="min-w-[400px] absolute left-1/2 -top-[100px] -translate-x-1/2 z-[98] md:min-w-[100px] md:hidden"--}}
+{{--                                 style="transform: translate(-50%, -50%) !important;"--}}
+{{--                            >--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </section>--}}
 
         <section id="products" class="">
             <div class="pt-16 pb-8 content">
