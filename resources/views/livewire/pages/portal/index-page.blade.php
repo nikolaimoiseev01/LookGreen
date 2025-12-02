@@ -269,7 +269,7 @@
 
         <section class="pt-20 grad-4">
             <div class="content flex flex-col">
-                <h2 class="uppercase text-4xl border-b-2 pb-2 border-white">Почему look green?</h2>
+                <h2 class="uppercase text-4xl border-b-2 pb-2 border-white relative z-[99]">Почему look green?</h2>
                 <div class="flex items-end gap-16 justify-between relative lg:flex-col md:w-full">
                     <img src="/fixed/block-4-flower.png"
                          class="absolute md:hidden w-[450px] top-1/2 left-2/3 -translate-y-1/2 -translate-x-1/2"

@@ -17,7 +17,7 @@
                 <a href="#welcome" class="text-center bg-pink-300 px-4 py-1 rounded-2xl">Главная</a>
                 <a href="#products" class="text-center bg-pink-300 px-4 py-1 rounded-2xl">Наши продукты</a>
             </div>
-            <h3 class="text-5xl border-b-2 pb-2 border-white mb-4">info@lookgreen.ru</h3>
+            <h3 class="text-5xl border-b-2 pb-2 border-white mb-4">sales@vzmsk.ru</h3>
             <div class="flex gap-8 md:justify-between">
                 <a href="" class="text-base">Политика обработки персональных данных</a>
                 <a href="" class="text-base">Оферта</a>

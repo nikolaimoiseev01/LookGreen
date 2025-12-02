@@ -1,4 +1,4 @@
-<header class="w-full bg-pink-500 absolute z-10">
+<header class="w-full bg-pink-500 absolute z-[999]">
     <div class="content flex justify-between items-center py-5">
 
         <div class="flex gap-10 items-center">
@@ -10,7 +10,7 @@
             </svg>
 
             <!-- Десктоп-меню -->
-            <div class="lg:hidden flex text-2xl gap-8 ml-16">
+            <div class="lg:hidden flex text-2xl gap-8 ml-16 z-[999]">
                 <a href="#about" class="transition hover:text-green-300">О нас</a>
                 <a href="#products" class="transition hover:text-green-300">Покупателям</a>
                 <a href="#footer" class="transition hover:text-green-300">Контакты</a>
