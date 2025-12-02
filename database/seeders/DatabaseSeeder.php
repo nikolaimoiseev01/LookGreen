@@ -43,6 +43,7 @@ class DatabaseSeeder extends Seeder
         foreach ($products as $product) {
             $product = Product::create($product);
             $product->addMediaFromUrl(config('app.url') . '/fixed/temp/cover-1.png')->toMediaCollection('cover');
+            $product->addMediaFromUrl(config('app.url') . '/fixed/temp/cover-1-mobile.png')->toMediaCollection('cover_mobile');
             $product->addMediaFromUrl(config('app.url') . '/fixed/temp/emoji-1.png')->toMediaCollection('emoji');
             for ($i = 1; $i <= 4; $i++) {
                 $product->addMediaFromUrl(config('app.url') . "/fixed/temp/prop-{$i}.png")->toMediaCollection('props');

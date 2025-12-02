@@ -54,14 +54,17 @@
                         Стать партнером
                     </a>
                 </div>
-                <img src="/fixed/jars/jar-green.png"
-                     class="absolute right-0 -top-32 z-30 w-[347px] xl:w-[255px] md:hidden" alt="">
+
+                <img src="/fixed/star-1.svg" class="absolute right-[30%] top-[5rem] md:right-[90%] md:top-auto md:bottom-[30px]" alt="">
+                <img src="/fixed/star-2.svg" class="absolute right-[25%] top-[10rem] md:right-[80%] md:top-auto md:bottom-[15px]" alt="">
+                <img src="/fixed/star-3.svg" class="absolute right-0 bottom-[1rem]  md:right-[5px] md:bottom-[10rem]" alt="">
+                <img src="/fixed/light-effect.png" class="absolute w-[800px] -right-20 -bottom-44 md:hidden" alt="">
                 <img src="/fixed/jars/jar-flying.png" id="jar-flying-1"
-                     class="absolute right-16 w-[425px] xl:w-[325px] md:!w-[80%] md:max-w-[325px] md:bottom-16 md:right-0 bottom-0 z-20 md:relative"
+                     class="absolute right-16 w-[425px] xl:w-[325px] md:!w-[80%] md:max-w-[325px] md:bottom-5 md:right-0 bottom-0 z-20 md:relative"
                      alt="">
             </div>
             <div
-                class="content w-full flex items-start relative justify-center mt-24 md:mt-0 mb-4 group">
+                class="content w-full flex items-start relative z-[99] justify-center mt-24 md:mt-0 mb-4 group">
                 <div
                     class="absolute h-2 bg-green-300 w-full rounded-2xl top-1/2 -translate-y-1/2 transition group-hover:bg-pink-300"></div>
                 <a href="#menu"
@@ -70,16 +73,16 @@
             </div>
         </section>
 
-        <section id="menu" class="grad-2 py-20">
-            <div class="flex content gap-8 relative md:flex-col grad-2">
+        <section id="menu" class="grad-2 py-20 md:py-16">
+            <div class="flex content gap-8 relative md:flex-col grad-2 md:pt-8">
                 <img src="/fixed/block-2-img.png"
-                     class="rounded-3xl w-1/3 md:w-full md:max-h-80 md:order-2 aspect-video object-cover relative z-[999]"
+                     class="rounded-3xl w-1/3 md:w-full md:h-[500px] md:order-2 aspect-video object-cover relative z-[999]"
                      alt="">
                 <div class="absolute w-full h-full top-0 left-0 grad-2 z-[99]"></div>
                 <div class="flex flex-col gap-8 w-2/3 md:w-full relative">
                     <img src="/fixed/block-2-text.svg" class="w-full relative z-[999]" alt="">
 
-                    <svg id="jar-hole-1" class="absolute md:hidden -top-12 right-0 z-10" width="459"
+                    <svg id="jar-hole-1" class="absolute -top-12 right-0 z-10 md:-top-20 md:max-w-[90%]" width="459"
                          height="85" viewBox="0 0 459 85" fill="none"
                          xmlns="http://www.w3.org/2000/svg">
                         <mask id="mask0_114_12" style="mask-type:luminance"
@@ -94,7 +97,7 @@
                         </g>
                     </svg>
 
-                    <svg class="absolute -top-12 right-0 z-[999] md:hidden" width="459" height="89"
+                    <svg class="absolute -top-12 right-0 z-[999] md:-top-20 md:max-w-[90%]" width="459" height="89"
                          viewBox="0 0 459 89" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_114_20)">
                             <mask id="mask0_114_20" style="mask-type:luminance"
@@ -124,7 +127,7 @@
           transition-all duration-300 ease-out hover:scale-[1.03] hover:shadow-xl hover:-translate-y-1">
 
                             <x-heroicon-o-arrow-up-right
-                                class="bg-white ml-auto text-black-500 p-3 rounded-full text-black w-12 h-12 transition-all duration-300
+                                class=" z-50 bg-white ml-auto text-black-500 p-3 rounded-full text-black w-12 h-12 transition-all duration-300
                group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:rotate-12"/>
 
                             <span
@@ -272,15 +275,15 @@
                          class="absolute md:hidden w-[450px] top-1/2 left-2/3 -translate-y-1/2 -translate-x-1/2"
                          alt="">
                     <div class="flex flex-col md:w-full">
-                        <p class="uppercase text-6xl md:text-5xl sm:!text-4xl md:leading-normal sm:!leading-relaxed sm:text-center mt-20 leading-snug">
+                        <p class="uppercase text-6xl md:text-5xl sm:!text-4xl md:leading-normal sm:!leading-relaxed sm:text-center mt-20 leading-relaxed">
                             <span class="border-2 border-white rounded-full px-4">вдохновляем</span>
-                            на выбор<br>
+                            на выбор<br class="md:hidden">
                             в пользу <span
                                 class="border-2 border-white rounded-full px-4">здоровья</span> -
-                            без<br>
-                            компромиссов, без скуки<br>
+                            без<br class="md:hidden">
+                            компромиссов, без скуки<br class="md:hidden">
                             <span
-                                class="border-2 border-white rounded-full px-4">с удовольствием</span>
+                                class="border-2 border-white rounded-full px-4 text-nowrap">с удовольствием</span>
                         </p>
                         <div class="flex mt-32 lg:hidden">
                             <img src="/fixed/block-4-the-nut.png"  alt="">

@@ -3,8 +3,12 @@
         <div class="flex items-center justify-center md:flex-col md:gap-4 md:mb-4">
             <img src="/fixed/footer-icon.png" alt="">
             <div class="gap-2 hidden md:flex md:flex-wrap">
-                <img class="w-20 h-20 " src="/fixed/logos/ozon.svg" alt="">
-                <img class="w-20 h-20" src="/fixed/logos/wb.svg" alt="">
+                <a target="_blank" href="https://www.ozon.ru/seller/torgovyy-dom-vashe-zdorove-8011/brand/look-green-101874190/?miniapp=seller_8011">
+                    <img class="w-20 h-20" src="/fixed/logos/ozon.svg" alt="">
+                </a>
+                <a target="_blank" href="https://www.wildberries.ru/seller/38083?sort=popular&page=1&fbrand=312211903">
+                    <img class="w-20 h-20" src="/fixed/logos/wb.svg" alt="">
+                </a>
             </div>
         </div>
         <div class="w-1 mr-8 self-stretch bg-white h-[240px] my-auto md:hidden"></div>

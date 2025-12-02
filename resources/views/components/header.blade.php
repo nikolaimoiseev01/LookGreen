@@ -17,10 +17,17 @@
             </div>
         </div>
 
+        <img src="/fixed/jars/jar-green.png"
+             class="absolute right-20 top-0 z-30 w-[347px] xl:w-[255px] lg:hidden" alt="">
+
         <!-- Иконки -->
-        <div class="flex gap-5 lg:hidden">
-            <img src="/fixed/logos/ozon.svg" alt="">
-            <img src="/fixed/logos/wb.svg" alt="">
+        <div class="flex gap-5 lg:hidden relative z-[99]">
+            <a target="_blank" href="https://www.ozon.ru/seller/torgovyy-dom-vashe-zdorove-8011/brand/look-green-101874190/?miniapp=seller_8011">
+                <img src="/fixed/logos/ozon.svg" alt="">
+            </a>
+            <a target="_blank" href="https://www.wildberries.ru/seller/38083?sort=popular&page=1&fbrand=312211903">
+                <img src="/fixed/logos/wb.svg" alt="">
+            </a>
         </div>
 
         <!-- Мобильная кнопка -->

@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
 })
 
 window.addEventListener("load", () => {
-    if (document.documentElement.clientWidth > 768) {
+    // if (document.documentElement.clientWidth > 768) {
 
 
         const jar1 = document.querySelector("#jar-flying-1");
@@ -74,9 +74,10 @@ window.addEventListener("load", () => {
 
         gsap.to(jar1, {
             scrollTrigger: {
-                trigger: hole1,
-                start: "top bottom",
-                end: "center+=300 center",
+                trigger: jar1,
+                start: "center center",
+                endTrigger: hole1,
+                end: "center center",
                 // markers: true,
                 scrub: true,
             },
@@ -117,7 +118,7 @@ window.addEventListener("load", () => {
         });
 
 
-    }
+    // }
 })
 
 

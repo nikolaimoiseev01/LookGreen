@@ -7,16 +7,16 @@
                 <div
                     class="flex flex-col h-full text-center py-8 relative max-w-[1440px] w-full mx-auto content">
 
-                    <h2 class="font-bold text-6xl mb-8 uppercase">
+                    <h2 class="font-bold text-6xl mb-8 md:text-5xl uppercase">
                         {{ $product['name'] }}
                     </h2>
 
-                    <p class="text-3xl font-medium max-w-4xl mx-auto mb-8">
+                    <p class="text-3xl md:text-xl font-medium max-w-4xl mx-auto mb-8">
                         {{ $product['description'] }}
                     </p>
 
                     <!-- Картинка + props -->
-                    <div class="flex md:flex-col gap-4 justify-center items-center flex-1 min-h-0">
+                    <div class="flex md:flex-col justify-center items-center flex-1 min-h-0">
 
                         <div class="flex flex-col md:flex-row bg-blue-500 rounded-full p-2 gap-8">
                             @foreach($product->getMedia('props') as $prop)
@@ -26,7 +26,12 @@
 
                         <img
                             src="{{ $product->getFirstMediaUrl('cover') }}"
-                            class="max-h-[60vh] md:w-3/5 w-auto object-contain"
+                            class="max-h-[60vh] md:w-3/5 w-auto object-contain md:hidden"
+                            alt=""
+                        >
+                        <img
+                            src="{{ $product->getFirstMediaUrl('cover_mobile') }}"
+                            class="w-full object-contain hidden md:block"
                             alt=""
                         >
                     </div>
