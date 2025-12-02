@@ -27,8 +27,12 @@
             <div class="flex items-center md:hidden">
                 <p class="text-lg mr-4">Мы представленны:</p>
                 <div class="flex gap-2">
-                    <img class="w-10 h-10" src="/fixed/logos/ozon.svg" alt="">
-                    <img class="w-10 h-10" src="/fixed/logos/wb.svg" alt="">
+                    <a target="_blank" href="https://www.ozon.ru/seller/torgovyy-dom-vashe-zdorove-8011/brand/look-green-101874190/?miniapp=seller_8011">
+                        <img class="w-10 h-10" src="/fixed/logos/ozon.svg" alt="">
+                    </a>
+                    <a target="_blank" href="https://www.wildberries.ru/seller/38083?sort=popular&page=1&fbrand=312211903">
+                        <img class="w-10 h-10" src="/fixed/logos/wb.svg" alt="">
+                    </a>
                 </div>
             </div>
             <p class="mt-auto">
