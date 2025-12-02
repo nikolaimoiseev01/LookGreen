@@ -188,7 +188,7 @@
             <div class="content flex flex-col">
                 <h2 class="uppercase text-4xl border-b-2 pb-2 border-white">О нас</h2>
                 <div class="flex relative">
-                    <img src="/fixed/block-3-img.png" class="max-w-4xl w-2/3 md:w-1/2 md:h-fit object-cover mx-auto md:pt-10"
+                    <img src="/fixed/block-3-img.png" class="max-w-4xl w-2/3 md:w-1/2 md:h-fit object-cover mx-auto md:pt-10 md:object-contain"
                          alt="">
                     <div
                         class="relative my-auto flex gap-9 flex-col items-center justify-center text-center md:w-1/2 md:gap-0 md:pt-8">
