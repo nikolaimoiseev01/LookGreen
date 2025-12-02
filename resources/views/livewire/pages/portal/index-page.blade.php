@@ -5,7 +5,7 @@
             <div
                 class="content w-full flex md:flex-col md:gap-4 md:items-center gap-20 items-start relative">
                 <div class="flex flex-col w-2/3 md:w-full">
-                    <svg class="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 416"
+                    <svg class="relative z-[99]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 416"
                          fill="none">
                         <circle cx="627.362" cy="112.424" r="99.0223" stroke="white"
                                 stroke-width="3"/>
@@ -258,7 +258,7 @@
                             </div>
                             <img id="jar-flying-2"
                                  src="/fixed/jars/jar-flying.png"
-                                 class="min-w-[400px] absolute left-1/2 -top-[100px] -translate-x-1/2 z-[98] md:min-w-[250px]"
+                                 class="min-w-[400px] absolute left-1/2 -top-[100px] -translate-x-1/2 z-[98] md:min-w-[325px]"
                                  style="transform: translate(-50%, -50%) !important;"
                             >
                         </div>
@@ -297,11 +297,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flex gap-2 md:pt-44">
+                    <div class="flex gap-2 md:pt-52 md:mx-auto">
                         <img src="/fixed/block-4-the-nut.png"
                              class="hidden h-auto mt-auto w-1/2 object-cover" alt="">
                         <img src="/fixed/block-4-jars.png" id="jar-flying-finish"
-                             class="lg:order-1 md:mx-auto" alt="">
+                             class="lg:order-1 md:mx-auto md:max-w-[250px]" alt="">
                     </div>
                 </div>
             </div>
