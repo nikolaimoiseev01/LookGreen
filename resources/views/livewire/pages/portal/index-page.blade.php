@@ -188,7 +188,7 @@
             <div class="content flex flex-col">
                 <h2 class="uppercase text-4xl border-b-2 pb-2 border-white">О нас</h2>
                 <div class="flex relative lg:flex-col">
-                    <img src="/fixed/block-3-img.png" class="max-w-4xl w-2/3 object-cover mx-auto"
+                    <img src="/fixed/block-3-img.png" class="max-w-4xl w-2/3 md:w-full object-cover mx-auto"
                          alt="">
                     <div
                         class="relative my-auto flex gap-9 flex-col items-center justify-center text-center">
@@ -199,7 +199,7 @@
                             видимой.Это не просто еда, а чистая энергия,
                             которая помогает тебе быть в лучшей форме каждый день
                         </p>
-                        <img src="/fixed/block-3-emoji.png" class="animate-spinSlow max-w-80 relative z-[99]" alt="">
+                        <img src="/fixed/block-3-emoji.png" class="animate-spinSlow max-w-80 md:max-w-60 relative z-[99]" alt="">
                         <p class="text-center text-3xl uppercase font-bold relative  z-[99]">
                             Мы не скрываем пользу<br>
                             — мы её показываем
