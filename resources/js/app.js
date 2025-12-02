@@ -112,8 +112,7 @@ window.addEventListener("load", () => {
                 scrub: true,
             },
             x: "-=" + deltaX2,
-            y: "-=" + (deltaY2 + 20),
-            scale: 1.4,
+            y: "-=" + (deltaY2 - 30),
             rotate: -8
         });
 

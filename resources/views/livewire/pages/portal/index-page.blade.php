@@ -1,4 +1,4 @@
-<main class="flex-1" id="smooth-wrapper">
+<main class="flex-1 overflow-x-hidden" id="smooth-wrapper">
     <div id="smooth-content">
         <section id="welcome"
             class="w-full h-screen md:h-auto relative flex flex-col items-center justify-center md:justify-start md:pt-32 grad-1 pt-20">
@@ -187,27 +187,27 @@
         <section id="about" class="pt-20 grad-3 relative">
             <div class="content flex flex-col">
                 <h2 class="uppercase text-4xl border-b-2 pb-2 border-white">О нас</h2>
-                <div class="flex relative lg:flex-col">
-                    <img src="/fixed/block-3-img.png" class="max-w-4xl w-2/3 object-cover mx-auto"
+                <div class="flex relative">
+                    <img src="/fixed/block-3-img.png" class="max-w-4xl w-2/3 md:w-1/2 md:h-fit object-cover mx-auto md:pt-10"
                          alt="">
                     <div
-                        class="relative my-auto flex gap-9 flex-col items-center justify-center text-center">
+                        class="relative my-auto flex gap-9 flex-col items-center justify-center text-center md:w-1/2 md:gap-0 md:pt-8">
                         <div class="grad-3 absolute top-0 left-0 w-full h-full z-[99]"></div>
-                        <p class="text-center font-medium text-3xl z-[99]">
+                        <p class="text-center font-medium text-3xl z-[99] md:text-sm">
                             <span class="font-bold">Look Green</span> — это бренд, который делает
                             пользу
                             видимой.Это не просто еда, а чистая энергия,
                             которая помогает тебе быть в лучшей форме каждый день
                         </p>
-                        <img src="/fixed/block-3-emoji.png" class="animate-spinSlow max-w-80 relative z-[99]" alt="">
-                        <p class="text-center text-3xl uppercase font-bold relative  z-[99]">
+                        <img src="/fixed/block-3-emoji.png" class="animate-spinSlow max-w-80 md:max-w-32 relative z-[99]" alt="">
+                        <p class="text-center text-3xl uppercase font-bold relative z-[99] md:text-base">
                             Мы не скрываем пользу<br>
                             — мы её показываем
                         </p>
 
-                        <div class="relative md:hidden">
+                        <div class="relative">
                             <div class="flex flex-col w-[300px] h-[40px]">
-                                <svg class="z-[99] absolute left-1/2 top-[25px] -translate-x-1/2"
+                                <svg class="z-[99] absolute left-1/2 top-[25px] -translate-x-1/2 md:w-[250px]"
                                      width="428" height="45" viewBox="0 0 428 45" fill="none"
                                      xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#clip0_115_40)">
@@ -231,7 +231,7 @@
                                     </defs>
                                 </svg>
 
-                                <svg class="z-[97] absolute left-1/2 top-[25px] -translate-x-1/2"
+                                <svg class="z-[97] absolute left-1/2 top-[25px] -translate-x-1/2 md:w-[250px]"
                                      width="428" height="45" viewBox="0 0 428 45" fill="none"
                                      xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#clip0_115_47)">
@@ -258,7 +258,7 @@
                             </div>
                             <img id="jar-flying-2"
                                  src="/fixed/jars/jar-flying.png"
-                                 class="scale-50 absolute left-1/2 -top-[50px] -translate-x-1/2 z-[98]"
+                                 class="min-w-[400px] absolute left-1/2 -top-[100px] -translate-x-1/2 z-[98] md:min-w-[100px] md:hidden"
                                  style="transform: translate(-50%, -50%) !important;"
                             >
                         </div>
@@ -275,7 +275,7 @@
                          class="absolute md:hidden w-[450px] top-1/2 left-2/3 -translate-y-1/2 -translate-x-1/2"
                          alt="">
                     <div class="flex flex-col md:w-full">
-                        <p class="uppercase text-6xl md:text-5xl sm:!text-4xl md:leading-normal sm:!leading-relaxed sm:text-center mt-20 leading-relaxed">
+                        <p class="uppercase text-6xl md:text-5xl sm:!text-4xl md:leading-normal sm:!leading-relaxed sm:text-center mt-20 leading-relaxed z-[99]">
                             <span class="border-2 border-white rounded-full px-4">вдохновляем</span>
                             на выбор<br class="md:hidden">
                             в пользу <span
@@ -299,9 +299,9 @@
                     </div>
                     <div class="flex gap-2">
                         <img src="/fixed/block-4-the-nut.png"
-                             class="hidden lg:block h-auto mt-auto w-1/2 object-cover" alt="">
+                             class="hidden h-auto mt-auto w-1/2 object-cover" alt="">
                         <img src="/fixed/block-4-jars.png" id="jar-flying-finish"
-                             class="lg:order-1 md:w-1/2" alt="">
+                             class="lg:order-1 md:mx-auto" alt="">
                     </div>
                 </div>
             </div>
