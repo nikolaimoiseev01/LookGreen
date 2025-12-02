@@ -193,7 +193,7 @@
                     <div
                         class="relative my-auto flex gap-9 flex-col items-center justify-center text-center">
                         <div class="grad-3 absolute top-0 left-0 w-full h-full z-[99]"></div>
-                        <p class="text-center font-medium text-3xl z-[99]">
+                        <p class="text-center font-medium text-3xl md:text-2xl z-[99]">
                             <span class="font-bold">Look Green</span> — это бренд, который делает
                             пользу
                             видимой.Это не просто еда, а чистая энергия,
