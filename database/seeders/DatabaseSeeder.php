@@ -30,8 +30,8 @@ class DatabaseSeeder extends Seeder
                 'name' => 'Морская соль',
                 'props_color' => '#2969b7',
                 'description' => 'Крупные кристаллы — плотные, хрустящие, с естественной неровностью формы. Вкус насыщенный, яркий, с выраженной соленостью и тонким намёком на морскую свежесть. ',
-                'gradient_from' => '#A4CDFF',
-                'gradient_to' => '#499AFF',
+                'gradient_from' => '#499AFF',
+                'gradient_to' => '#A4CDFF',
                 'props' => ['natural', 'mineral', 'micro', 'macro']
             ],
             [
@@ -70,7 +70,7 @@ class DatabaseSeeder extends Seeder
                 'name' => 'Матча зеленая',
                 'props_color' => '#fe99de',
                 'description' => 'Насыщенный благородный аромат с морскими нотками и мягким травянисто-сладковатым оттенком. Вкус плотный, терпковатый, с приятной легкой горчинкой и долгим, цепляющим послевкусием.',
-                'gradient_from' => '#ea9b16',
+                'gradient_from' => '#00ac7c',
                 'gradient_to' => '#55ddb7',
                 'props' => ['vegan', 'oksi']
             ]

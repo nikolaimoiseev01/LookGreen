@@ -9,7 +9,7 @@
     <div class="swiper-wrapper">
         @foreach($products as $product)
             <div class="swiper-slide h-[90vh] overflow-hidden"
-                 style="background: linear-gradient(0deg,{{$product['gradient_from']}}, {{$product['gradient_to']}});"
+                 style="background: linear-gradient(0deg,{{$product['gradient_to']}}, {{$product['gradient_from']}});"
             >
                 <div
                     class="flex flex-col h-full text-center py-8 relative max-w-[1440px] w-full mx-auto content">
