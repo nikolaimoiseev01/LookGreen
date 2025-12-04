@@ -71,7 +71,7 @@ class DatabaseSeeder extends Seeder
                 'props_color' => '#fe99de',
                 'description' => 'Насыщенный благородный аромат с морскими нотками и мягким травянисто-сладковатым оттенком. Вкус плотный, терпковатый, с приятной легкой горчинкой и долгим, цепляющим послевкусием.',
                 'gradient_from' => '#ea9b16',
-                'gradient_to' => '#ffc461',
+                'gradient_to' => '#55ddb7',
                 'props' => ['vegan', 'oksi']
             ]
 
