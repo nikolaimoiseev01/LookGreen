@@ -23,7 +23,7 @@
                     </p>
 
                     <!-- Картинка + props -->
-                    <div class="flex md:flex-col gap-16 justify-center items-center flex-1 min-h-0 pl-20">
+                    <div class="flex md:flex-col gap-16 justify-center items-center flex-1 min-h-0 pl-20 md:pl-0">
 
                         <div style="background-color: {{$product['props_color']}}" class="flex flex-col md:flex-row rounded-full p-2 gap-8 min-w-fit">
                             @foreach($product->getMedia('props') as $prop)
@@ -38,7 +38,7 @@
                         >
                         <img
                             src="{{ $product->getFirstMediaUrl('cover_mobile') }}"
-                            class="w-full object-contain hidden md:block"
+                            class="w-[90%] object-contain hidden md:block"
                             alt=""
                         >
                     </div>
