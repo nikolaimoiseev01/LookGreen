@@ -1,4 +1,11 @@
 <div class="productsSlider swiper !flex flex-col gap-4">
+    <style>
+        .swiper-button-disabled {
+            opacity: 0.7;
+        }
+    </style>
+    <x-heroicon-c-chevron-left id="SliderPrev" class="w-24 h-auto absolute top-1/2 left-[10%] fill-white z-[99] transition hover:scale-110 cursor-pointer lg:hidden"/>
+    <x-heroicon-c-chevron-right id="SliderNext" class="w-24 h-auto absolute top-1/2 right-[10%] fill-white z-[99] transition hover:scale-110 cursor-pointer lg:hidden"/>
     <div class="swiper-wrapper">
         @foreach($products as $product)
             <div class="swiper-slide h-[90vh] overflow-hidden"
@@ -18,9 +25,9 @@
                     <!-- Картинка + props -->
                     <div class="flex md:flex-col gap-16 justify-center items-center flex-1 min-h-0 pl-20">
 
-                        <div style="background-color: {{$product['props_color']}}" class="flex flex-col md:flex-row rounded-full p-2 gap-8">
+                        <div style="background-color: {{$product['props_color']}}" class="flex flex-col md:flex-row rounded-full p-2 gap-8 min-w-fit">
                             @foreach($product->getMedia('props') as $prop)
-                                <img src="{{ $prop->getUrl() }}" class="md:w-16" alt="">
+                                <img src="{{ $prop->getUrl() }}" class="md:max-w-20" alt="">
                             @endforeach
                         </div>
 
@@ -71,10 +78,10 @@
             slidesPerView: 'auto',
             spaceBetween: 30,
             autoHeight: true,
-            // navigation: {
-            //     nextEl: "#ownBooksSliderNext",
-            //     prevEl: "#ownBooksSliderPrev",
-            // },
+            navigation: {
+                nextEl: "#SliderNext",
+                prevEl: "#SliderPrev",
+            },
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
