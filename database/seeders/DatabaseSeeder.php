@@ -32,7 +32,7 @@ class DatabaseSeeder extends Seeder
                 'description' => 'Крупные кристаллы — плотные, хрустящие, с естественной неровностью формы. Вкус насыщенный, яркий, с выраженной соленостью и тонким намёком на морскую свежесть. ',
                 'gradient_from' => '#A4CDFF',
                 'gradient_to' => '#499AFF',
-                'props' => ['vegan', 'mineral', 'micro', 'macro']
+                'props' => ['natural', 'mineral', 'micro', 'macro']
             ],
             [
                 'name' => 'СЕМЕНА ЧИА',
