@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('description');
+            $table->string('props_color');
             $table->string('gradient_from');
             $table->string('gradient_to');
             $table->timestamps();

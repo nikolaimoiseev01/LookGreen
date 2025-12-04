@@ -11,14 +11,14 @@
                         {{ $product['name'] }}
                     </h2>
 
-                    <p class="text-3xl md:text-xl font-medium max-w-4xl mx-auto mb-8">
+                    <p class="text-3xl md:text-xl font-medium max-w-4xl mx-auto mb-12">
                         {{ $product['description'] }}
                     </p>
 
                     <!-- Картинка + props -->
-                    <div class="flex md:flex-col justify-center items-center flex-1 min-h-0">
+                    <div class="flex md:flex-col gap-16 justify-center items-center flex-1 min-h-0 pl-20">
 
-                        <div class="flex flex-col md:flex-row bg-blue-500 rounded-full p-2 gap-8">
+                        <div style="background-color: {{$product['props_color']}}" class="flex flex-col md:flex-row rounded-full p-2 gap-8">
                             @foreach($product->getMedia('props') as $prop)
                                 <img src="{{ $prop->getUrl() }}" class="md:w-16" alt="">
                             @endforeach
